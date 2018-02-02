@@ -1,1 +1,1 @@
-/** * Created by HP on 2018/2/2. */
+// 模块下载速度测试模块let colors = require('colors')class SpeedTest{    constructor(){        this.time = null        this.timeNum = 0    }    start(){        this.timeNum = 0        this.time = setInterval(()=> {            this.timeNum += 100        }, 100)    }    end(){        clearInterval( this.time )        return this.timeNum/1000    }    endAndConsole(){        console.log(('本次操作共花费'+this.end()+'s').green)    }}module.exports = SpeedTest

@@ -1,1 +1,1 @@
-#!/usr/bin/env nodelet config = require('../config/index')let commander = require('commander')commander.version(require('../package').version)         .usage('<command> [options]')         .parse(process.argv)
+#!/usr/bin/env nodelet config = require('../config/index')let commander = require('commander')commander.version(require('../package').version)         .usage('<command> [options]')         .parse(process.argv)require('../controller/list-init')(commander.args)

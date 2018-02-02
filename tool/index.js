@@ -1,1 +1,1 @@
-/** * Created by HP on 2018/2/2. */
+module.exports = {    SpeedTest: require('./SpeedTest'),    MyCat: require('./MyCat'),}
