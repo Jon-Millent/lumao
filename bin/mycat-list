@@ -1,0 +1,1 @@
+#!/usr/bin/env nodeconst program = require('commander')program  .usage('<command> [options]')  .parse(process.argv);require('../controller/list')(program.args)

@@ -1,0 +1,1 @@
+#!/usr/bin/env nodelet config = require('../config/index')let _ = require('lodash')let commander = require('commander')let colors = require('colors')commander.version(require('../package').version).usage('<command> [options]')_.forEach(config.list, value=>{    commander.command(value.arg, value.info)})commander.parse(process.argv)
