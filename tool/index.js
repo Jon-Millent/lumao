@@ -1,1 +1,1 @@
-module.exports = {    SpeedTest: require('./SpeedTest'),    MyCat: require('./MyCat'),}
+module.exports = {    SpeedTest: require('./SpeedTest'),    MyCat: require('./MyCat'),    ConsoleHelp: require('./ConsoleHelp'),}
