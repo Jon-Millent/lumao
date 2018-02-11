@@ -1,0 +1,1 @@
+// create by mycat$(function () {    $('input, textarea').placeholder();})
