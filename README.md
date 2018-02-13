@@ -1,8 +1,9 @@
 # lumao
-:cat: 前端项目自动化构建工具
+:cat: 前端项目自动化构建工具  
+
 <a href="https://github.com/Jon-Millent/lumao/blob/master/README.md">中文</a>
 |
-<a href="https://github.com/Jon-Millent/lumao/blob/master/en.md">English</a>  
+<a href="https://github.com/Jon-Millent/lumao/blob/master/en.MD">English</a>  
 
 ## 安装
 
