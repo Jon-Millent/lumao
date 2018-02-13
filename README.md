@@ -1,19 +1,19 @@
-# mycat
+# lumao
 :cat:前端项目目录自动化构建工具
 
 ## 安装
 
 ```cmd
-npm install mycat -g
+npm install lumao -g
 ```
 
 ## 使用
 
-### `mycat list`
+### `lumao list`
 显示目前可用的插件列表
-### `mycat list-info [name]`
+### `lumao list-info [name]`
 显示插件信息
-### `mycat init [type]`
+### `lumao init [type]`
 初始化项目，已经支持的项目模板类型
 * `website` 生成现代网站通用模板 [包含 jquery@3.3.0]
 * `website-ie` 生成兼容ie8+的传统网页模板 [ jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]

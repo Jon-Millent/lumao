@@ -1,30 +1,30 @@
 {
-  "name": "mycat",
+  "name": "lumao",
   "version": "1.0.3",
   "description": "前端项目目录自动化构建工具",
+  "bin": {
+    "lumao": "./bin/lumao"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jon-Millent/mycat.git"
+    "url": "git+https://github.com/Jon-Millent/lumao.git"
   },
   "author": "jon-millent",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jon-Millent/mycat/issues"
   },
-  "bin": {
-    "mycat": "bin/mycat"
-  },
   "homepage": "https://github.com/Jon-Millent/mycat#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "co": "^4.6.0",
     "colors": "^1.1.2",
-    "commander": "^2.13.0",
+    "commander": "^2.14.1",
     "download": "^6.2.5",
     "fs-extra": "^5.0.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.5"
   }
 }
