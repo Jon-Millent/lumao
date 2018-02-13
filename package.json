@@ -1,6 +1,6 @@
 {
   "name": "mycat",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "前端项目目录自动化构建工具",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "irest": "bin/mycat"
   },
   "homepage": "https://github.com/Jon-Millent/mycat#readme",
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.17.1",
     "co": "^4.6.0",
     "colors": "^1.1.2",
