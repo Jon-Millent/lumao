@@ -23,6 +23,9 @@ npm install lumao -g
 * `website-ie` 生成兼容ie8+的传统网页模板 [ jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]
 * `bootstrap` 生成普通bootstrap模板 [ bootstrap@3.3.7 + jquery@3.3.0 ]
 * `bootstrap-ie` 生成兼容ie8+的bootstrap模板 [ bootstrap@3.3.7 + jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]
+* `jquery-plugin` 生成jquery插件开发模板
+* `website-mobile` 生成移动端常规模板
+* `website-mobile-rem` 生成移动端rem布局模板
 
 ## 以后计划要实现的功能
 
@@ -32,9 +35,6 @@ npm install lumao -g
 
 ## 以后计划要添加的模板
 
-* jquery-plugin
-* website-mobile
-* website-mobile-rem
 * website-swiper
 
 ## 关于
