@@ -1,1 +1,77 @@
-{  "cdn": {    "url": "https://api.bootcdn.cn/"  },  "api": {    "getList": "names.min.json",    "getListInfo": "libraries/{{name}}.min.json",    "download": "https://cdn.bootcss.com/"  },  "inited": {    "fileName": "mycat.json"  },  "list": {    "website": {      "arg": "website",      "info": "生成现代网站通用模板 [包含 jquery@3.3.0]",      "need": [        "jquery@3.3.0"      ]    },    "website-ie": {      "arg": "website-ie",      "info": "生成兼容ie8+的传统网页模板 [ jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]",      "need": [        "jquery@1.9.1",        "html5shiv@3.7.3",        "respond.js@1.4.2",        "jquery-placeholder@2.3.1"      ]    },    "bootstrap": {      "arg": "bootstrap",      "info": "生成普通bootstrap模板 [ bootstrap@3.3.7 + jquery@3.3.0 ]",      "need": [        "jquery@3.3.0",        "bootstrap@3.3.7"      ]    },    "bootstrap-ie": {      "arg": "bootstrap-ie",      "info": "生成兼容ie8+的bootstrap模板 [ bootstrap@3.3.7 + jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]",      "need": [        "jquery@1.9.1",        "bootstrap@3.3.7",        "html5shiv@3.7.3",        "respond.js@1.4.2",        "jquery-placeholder@2.3.1"      ]    },    "jquery-plugin": {      "arg": "jquery-plugin",      "info": "生成jquery插件开发的模板",      "need": [        "jquery@1.9.1"      ],      "noPublic": true    },    "website-mobile": {      "arg": "website-mobile",      "info": "生成标准移动端网站模板",      "need": [        "zepto@1.2.0"      ]    },    "website-mobile-rem": {      "arg": "website-mobile-rem",      "info": "生成标准移动端网站rem布局模板",      "need": [        "zepto@1.2.0"      ]    },    "website-swiper": {      "arg": "website-swiper",      "info": "生成swiper单页面全屏特效模板"    }  }}
+{
+  "cdn": {
+    "url": "https://api.bootcdn.cn/"
+  },
+  "api": {
+    "getList": "names.min.json",
+    "getListInfo": "libraries/{{name}}.min.json",
+    "download": "https://cdn.bootcss.com/"
+  },
+  "inited": {
+    "fileName": "mycat.json"
+  },
+  "list": {
+    "website": {
+      "arg": "website",
+      "info": "生成现代网站通用模板 [包含 jquery@3.3.0]",
+      "need": [
+        "jquery@3.3.0"
+      ]
+    },
+    "website-ie": {
+      "arg": "website-ie",
+      "info": "生成兼容ie8+的传统网页模板 [ jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]",
+      "need": [
+        "jquery@1.12.4",
+        "html5shiv@3.7.3",
+        "respond.js@1.4.2",
+        "jquery-placeholder@2.3.1"
+      ]
+    },
+    "bootstrap": {
+      "arg": "bootstrap",
+      "info": "生成普通bootstrap模板 [ bootstrap@3.3.7 + jquery@3.3.0 ]",
+      "need": [
+        "jquery@3.3.0",
+        "bootstrap@3.3.7"
+      ]
+    },
+    "bootstrap-ie": {
+      "arg": "bootstrap-ie",
+      "info": "生成兼容ie8+的bootstrap模板 [ bootstrap@3.3.7 + jquery@1.9.1 + respond.js + html5shiv + jquery-placeholder ]",
+      "need": [
+        "jquery@1.9.1",
+        "bootstrap@3.3.7",
+        "html5shiv@3.7.3",
+        "respond.js@1.4.2",
+        "jquery-placeholder@2.3.1"
+      ]
+    },
+    "jquery-plugin": {
+      "arg": "jquery-plugin",
+      "info": "生成jquery插件开发的模板",
+      "need": [
+        "jquery@1.9.1"
+      ],
+      "noPublic": true
+    },
+    "website-mobile": {
+      "arg": "website-mobile",
+      "info": "生成标准移动端网站模板",
+      "need": [
+        "zepto@1.2.0"
+      ]
+    },
+    "website-mobile-rem": {
+      "arg": "website-mobile-rem",
+      "info": "生成标准移动端网站rem布局模板",
+      "need": [
+        "zepto@1.2.0"
+      ]
+    },
+    "website-swiper": {
+      "arg": "website-swiper",
+      "info": "生成swiper单页面全屏特效模板"
+    }
+  }
+}
